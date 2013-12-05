@@ -6,6 +6,7 @@ Requires at least: 3.4.1
 Tested up to: 3.7.1
 Version: 1.0
 Stable tag: 1.0
+Plugin URI: http://wpmedia.pro/display-registered-image-dimensions-plugin-for-wordpress/
 
 
 == Description ==

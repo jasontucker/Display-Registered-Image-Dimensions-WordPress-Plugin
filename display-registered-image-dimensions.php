@@ -6,6 +6,7 @@ Description: Display the images defined using add_image_size in function.php and
 Author: Jason Tucker
 Version: 1.0
 Author URI: http://www.wpmedia.pro
+Plugin URI: http://wpmedia.pro/display-registered-image-dimensions-plugin-for-wordpress/
 */
 
 // Create the function to output the contents of our Dashboard Widget
@@ -13,9 +14,9 @@ Author URI: http://www.wpmedia.pro
 function dwi_dashboard_widget_function() {
 
         $image_sizes = get_intermediate_image_sizes();
-        
+
+        echo "<table class='form-table'><tbody>";
 		foreach ($image_sizes as $size_key => $size_value):
-			echo "<table class='form-table'><tbody>";
 			$image_size = get_thumb_image_size( $size_value );
 			if ( !empty( $image_size ) ) {
 				$width = $image_size['width'];
