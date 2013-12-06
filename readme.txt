@@ -5,7 +5,7 @@ Tags: image size registered dimension
 Requires at least: 3.4.1
 Tested up to: 3.7.1
 Version: 1.01
-Stable tag: 1.0
+Stable tag: 1.01
 Plugin URI: http://wpmedia.pro/display-registered-image-dimensions-plugin-for-wordpress/
 
 
