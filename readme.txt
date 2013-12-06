@@ -4,8 +4,8 @@ Donate link: http://www.wpmedia.pro/
 Tags: image size registered dimension
 Requires at least: 3.4.1
 Tested up to: 3.7.1
-Version: 1.01
-Stable tag: 1.01
+Version: 1.02
+Stable tag: 1.02
 Plugin URI: http://wpmedia.pro/display-registered-image-dimensions-plugin-for-wordpress/
 
 
