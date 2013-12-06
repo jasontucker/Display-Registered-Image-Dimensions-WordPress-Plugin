@@ -1,26 +1,23 @@
 === Display Registered Image Dimensions ===
 Contributors: jasontucker
 Donate link: http://www.wpmedia.pro/
-Tags: image size registered dimension
+Tags: image, size, registered, dimension
 Requires at least: 3.4.1
 Tested up to: 3.7.1
-Version: 1.02
-Stable tag: 1.02
-Plugin URI: http://wpmedia.pro/display-registered-image-dimensions-plugin-for-wordpress/
-
+Version: 1.03
+Stable tag: 1.03
+License: GPLv2
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
+
 This plugin will display the images defined using add_image_size in function.php and from installed plugins. Values are displayed in the Media Settings screen.
 You can see how images are  http://codex.wordpress.org/Function_Reference/add_image_size
 
 This plugin is based on the plugin: "Image sizes in admin dashboard!" by mansoormunib
 
-
-== Screenshots ==
-
-1. Different sizes
-
 == Installation ==
+
 
 1. Download the plugin and extract the files
 2. Upload `display-registered-image-dimensions` to your `~/wp-content/plugins/` directory
@@ -30,3 +27,16 @@ This plugin is based on the plugin: "Image sizes in admin dashboard!" by mansoor
 Test it out and enjoy!
 
 == Frequently Asked Questions ==
+
+
+== Screenshots ==
+
+screenshot-1.jpg
+
+== Changelog ==
+
+= 1.02 =
+* Minor change to resolve an issue with the main function outputting correctly.
+
+= 1.0 =
+* Initial Release
