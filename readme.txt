@@ -4,7 +4,7 @@ Donate link: http://www.wpmedia.pro/
 Tags: image size registered dimension
 Requires at least: 3.4.1
 Tested up to: 3.7.1
-Version: 1.0
+Version: 1.01
 Stable tag: 1.0
 Plugin URI: http://wpmedia.pro/display-registered-image-dimensions-plugin-for-wordpress/
 
@@ -30,6 +30,3 @@ This plugin is based on the plugin: "Image sizes in admin dashboard!" by mansoor
 Test it out and enjoy!
 
 == Frequently Asked Questions ==
-
-= When will the next version of your plugin be released? =
-As soon as I find the time, I will update the plugin and release a new version.
