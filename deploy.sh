@@ -13,7 +13,7 @@ GITPATH="$CURRENTDIR/" # this file should be in the base of your git repository
 # svn config
 SVNPATH="/tmp/$PLUGINSLUG" # path to a temp SVN repo. No trailing slash required and don't add trunk.
 SVNURL="http://plugins.svn.wordpress.org/display-registered-image-dimensions/" # Remote SVN repo on wordpress.org, with no trailing slash
-SVNUSER="jasontucker" # your svn username
+SVNUSER="BFTrick" # your svn username
 
 
 # Let's begin...
@@ -65,6 +65,7 @@ mv $SVNPATH/trunk/assets-wp-repo/* $SVNPATH/assets/
 svn add $SVNPATH/assets/
 svn delete $SVNPATH/trunk/assets-wp-repo
 
+
 echo "Changing directory to SVN"
 cd $SVNPATH/trunk/
 # Add all new files that are not set to be ignored
@@ -83,6 +84,6 @@ cd $SVNPATH/tags/$NEWVERSION1
 svn commit --username=$SVNUSER -m "Tagging version $NEWVERSION1"
 
 echo "Removing temporary directory $SVNPATH"
-# rm -fr $SVNPATH/
+rm -fr $SVNPATH/
 
 echo "*** FIN ***"
