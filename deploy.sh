@@ -2,7 +2,7 @@
 # A modification of Dean Clatworthy's deploy script as found here: https://github.com/deanc/wordpress-plugin-git-svn
 # The difference is that this script lives in the plugin's git repo & doesn't require an existing SVN repo.
 
-# main config
+# main config 
 PLUGINSLUG="display-registered-image-dimensions"
 CURRENTDIR=`pwd`
 MAINFILE="display-registered-image-dimensions.php" # this should be the name of your main php file in the wordpress plugin
