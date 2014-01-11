@@ -4,8 +4,8 @@ Donate link: http://www.wpmedia.pro/
 Tags: image, size, registered, dimension
 Requires at least: 3.4.1
 Tested up to: 3.7.1
-Version: 1.06
-Stable tag: 1.06
+Version: 1.06.01
+Stable tag: 1.06.01
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
