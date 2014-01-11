@@ -5,7 +5,7 @@ Tags: image, size, registered, dimension
 Requires at least: 3.4.1
 Tested up to: 3.7.1
 Version: 1.03
-Stable tag: 1.03
+Stable tag: 1.05
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 

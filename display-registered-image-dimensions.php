@@ -3,7 +3,7 @@
 Plugin Name: Display Registered Image Dimensions
 Description: Display the images defined using add_image_size in function.php and from installed plugins. Values are displayed in the Media Settings screen.
 Author: Jason Tucker
-Version: 1.03
+Version: 1.05
 Author URI: http://www.wpmedia.pro
 Plugin URI: http://wpmedia.pro/display-registered-image-dimensions-plugin-for-wordpress/
 */
@@ -74,6 +74,36 @@ function image_dimensions_initialize_theme_options() {
 
       
 } 
+  
+
+  
+/* ------------------------------------------------------------------------ * 
+ * Action Links 
+ * ------------------------------------------------------------------------ */     
+  
+add_filter( 'plugin_action_links_' . plugin_basename(__FILE__), 'my_plugin_action_links' );
+
+function my_plugin_action_links( $links ) {
+   $links[] = '<a href="'. get_admin_url(null, 'options-media.php') .'">Display Sizes</a>';
+   return $links;
+}
+
+
+add_filter( 'plugin_row_meta', 'ts_plugin_meta_links', 10, 2 );
+function ts_plugin_meta_links( $links, $file ) {
+ 
+	$plugin = plugin_basename(__FILE__);
+ 
+	// create link
+	if ( $file == $plugin ) {
+		return array_merge(
+			$links,
+			array( '<a href="http://www.wpmedia.pro" target="_blank">WPMedia.Pro</a>', '<a href="http://www.wpwatercooler.com" target="_blank">WPwatercooler Weekly Video Podcast</a>' )
+		);
+	}
+	return $links;
+ 
+}
   
 /* ------------------------------------------------------------------------ * 
  * Section Callbacks 
