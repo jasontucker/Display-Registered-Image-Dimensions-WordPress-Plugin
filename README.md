@@ -4,23 +4,15 @@
 **Donate Link:** http://www.wpmedia.pro/  
 **Requires at least:** 3.4.1  
 **Tested up to:** 3.7.1  
-**Stable tag:** 1.8.2
- 	
-Move or remove posts in bulk by category or by tag.
+**Stable tag:** 1.8.3
+**License URI:** http://www.gnu.org/licenses/gpl-2.0.html
 
 ## Description ##
 
 This plugin will display the images defined using add_image_size in function.php and from installed plugins. Values are displayed in the Media Settings screen.
-You can see how images are  http://codex.wordpress.org/Function_Reference/add_image_size
+You can see how images are http://codex.wordpress.org/Function_Reference/add_image_size
 
 This plugin is based on the plugin: "Image sizes in admin dashboard!" by mansoormunib
-
-### TODO ###
-
-- None
-
-## Support ##
-
 
 ## Installation ##
 
@@ -33,9 +25,12 @@ Test it out and enjoy!
 
 ## Screenshots ##
 
-screenshot-1.jpg
+/assets/screenshot-1.jpg
 
 ## Changelog ##
+
+# 1.8.2 #
+* Updated banner graphic for repo and screenshot
 
 # 1.02 #
 * Minor change to resolve an issue with the main function outputting correctly.
