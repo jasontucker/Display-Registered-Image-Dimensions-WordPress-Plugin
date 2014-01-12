@@ -5,7 +5,7 @@
 **Requires at least:** 3.4.1  
 **Tested up to:** 3.7.1  
 **Stable tag:** 1.8.2
-	
+ 	
 Move or remove posts in bulk by category or by tag.
 
 ## Description ##
