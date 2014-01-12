@@ -4,7 +4,7 @@
 **Donate Link:** http://www.wpmedia.pro/  
 **Requires at least:** 3.4.1  
 **Tested up to:** 3.7.1  
-**Stable tag:** 1.8  
+**Stable tag:** 1.8.1
 	
 Move or remove posts in bulk by category or by tag.
 
