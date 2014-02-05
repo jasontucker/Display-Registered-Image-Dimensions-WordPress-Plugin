@@ -19,9 +19,7 @@ function jgt_dashboard_widget_function() {
 			if ( !empty( $image_size ) ) {
 				$width = $image_size['width'];
 				$height = $image_size['height'];
-				if ($image_size['crop'] == '1'){
-					$crop = "cropped";
-				}
+				$crop = ( ! empty($image_size['crop']) ? 'cropped' : '' );
 				
 			}
 			$size_value = str_replace("-", " ", $size_value);
