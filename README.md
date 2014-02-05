@@ -3,8 +3,8 @@
 **Tags:** image, size, registered, dimension  
 **Donate Link:** http://www.wpmedia.pro/  
 **Requires at least:** 3.4.1  
-**Tested up to:** 3.7.1  
-**Stable tag:** 1.8.3
+**Tested up to:** 3.8  
+**Stable tag:** 1.8.4
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html
 
 ## Description ##
