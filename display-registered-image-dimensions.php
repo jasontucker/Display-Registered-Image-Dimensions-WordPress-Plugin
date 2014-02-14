@@ -3,7 +3,7 @@
 Plugin Name: Display Registered Image Dimensions
 Description: Display the images defined using add_image_size in function.php and from installed plugins. Values are displayed in the Media Settings screen.
 Author: Jason Tucker
-Version: 1.8.4
+Version: 1.8.5
 Author URI: http://www.wpmedia.pro
 Plugin URI: http://wpmedia.pro/display-registered-image-dimensions-plugin-for-wordpress/
 */
@@ -22,8 +22,6 @@ function jgt_dashboard_widget_function() {
 				$crop = ( ! empty($image_size['crop']) ? 'cropped' : '' );
 				
 			}
-			$size_value = str_replace("-", " ", $size_value);
-			$size_value = ucwords($size_value);
 			
 			echo "<tr valign='top'><th scope='row'>".$size_value."</th><td>".$width."x".$height."px ".$crop."</td></tr>";			
 		endforeach;

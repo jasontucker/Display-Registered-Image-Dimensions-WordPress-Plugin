@@ -4,7 +4,7 @@
 **Donate Link:** http://www.wpmedia.pro/  
 **Requires at least:** 3.4.1  
 **Tested up to:** 3.8  
-**Stable tag:** 1.8.4
+**Stable tag:** 1.8.5
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html
 
 ## Description ##
@@ -28,6 +28,9 @@ Test it out and enjoy!
 /assets/screenshot-1.jpg
 
 ## Changelog ##
+
+# 1.8.5 #
+* Removed the pretty names from the image size list.
 
 # 1.8.2 #
 * Updated banner graphic for repo and screenshot
