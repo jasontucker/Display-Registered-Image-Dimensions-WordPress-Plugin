@@ -28,6 +28,9 @@ Test it out and enjoy!
 /assets/screenshot-1.jpg
 
 ## Changelog ##
+# 1.8.7 #
+* Updated Icon
+
 # 1.8.6 #
 * Plugin works up to 5.2.3
 
