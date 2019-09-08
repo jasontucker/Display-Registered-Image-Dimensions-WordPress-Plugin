@@ -14,7 +14,7 @@ You can see how images are http://codex.wordpress.org/Function_Reference/add_ima
 
 This plugin is based on the plugin: "Image sizes in admin dashboard!" by mansoormunib
 
-## Installation ##
+## Installation ##  
 
 1. Download the plugin and extract the files
 2. Upload `display-registered-image-dimensions` to your `~/wp-content/plugins/` directory
